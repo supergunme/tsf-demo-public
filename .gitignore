@@ -1,0 +1,17 @@
+# Maven #
+target/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project
+
+# MacOS
+.DS_store
+
+# Ignore data
+document/data

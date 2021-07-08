@@ -1,0 +1,10 @@
+python:
+  - 2.7
+cache:
+  directories:
+    - '$HOME/.m2'
+before_script:
+  - pip install cos-python-sdk-v5 tencentcloud-sdk-python
+script:
+  - mvn clean package -DskipTests=true
+  - ./scripts/deploy.py mall-demo/target/mall-demo-1.0-SNAPSHOT.jar $appName $appId 
