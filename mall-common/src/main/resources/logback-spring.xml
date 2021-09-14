@@ -17,7 +17,7 @@
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--输出DEBUG以上级别日志-->
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>INFO</level>
+            <level>DEBUG</level>
         </filter>
         <encoder>
             <!--设置为默认的文件日志格式-->
